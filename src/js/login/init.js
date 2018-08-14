@@ -3,5 +3,8 @@
 
 
  window.login = (opts)=>{
-    
+     const container = opts.container;
+     render(container);
+     event()
  }
+ 
