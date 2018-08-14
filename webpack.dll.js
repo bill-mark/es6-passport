@@ -1,7 +1,10 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const vendors = [];
+const vendors = [
+  'es5-shim',
+  'babel-polyfill'
+];
 
 const options = {
   output: {
