@@ -4,4 +4,6 @@ const getId = (id) =>{
 	return dom
 }
 
-export {getId}
+export {
+  getId :getId
+}

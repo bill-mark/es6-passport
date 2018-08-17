@@ -1,4 +1,4 @@
-import render  from '../components/render.js'
+import render  from './render.js'
 //import bindEvent from './event.js'
 
 
@@ -11,8 +11,8 @@ const login = (opts = {}) => {
     	passwordLabel:'',
     } 
     const options =Object.assign(defaultOpts,opts)
-    console.log('next render')
-    console.log(options)
+    //console.log('next render')
+    //console.log(options)
     render(options)
    // bindEvent(options) 
 }

@@ -1,3 +1,3 @@
-import {login} from './components/init.js'
+import {login} from './components/login/init.js'
 
 login({container:document.getElementById('container')})
