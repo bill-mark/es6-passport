@@ -5,10 +5,10 @@ const template = (opts ={}) =>{
               <label class="login-accout-wrapper">
                   <span  class="account-label">
                      ${opts.accountLabel}
-                  </span> 
+                  </span>
                   <input id="login-account" name="account" type="text"  
                          placeholder="${opts.accountPlaceholder}">
-                  <span id="clear-account" class="del"></span>
+                  <span  id="clear-account" class="del"></span>
               </label>
 
               <label class="login-accout-wrapper">

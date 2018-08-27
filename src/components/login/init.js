@@ -1,6 +1,6 @@
+import '../../assets/polyfill.js'
 import render  from './render.js'
 //import bindEvent from './event.js'
-
 
 const login = (opts = {}) => {
     const defaultOpts = {
