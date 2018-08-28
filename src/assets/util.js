@@ -5,5 +5,5 @@ const getId = (id) =>{
 }
 
 export {
-  getId :getId
+  getId 
 }

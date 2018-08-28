@@ -1,6 +1,6 @@
 import '../../assets/polyfill.js'
 import render  from './render.js'
-//import bindEvent from './event.js'
+import bindEvent from './event.js'
 
 const login = (opts = {}) => {
     const defaultOpts = {
@@ -11,10 +11,8 @@ const login = (opts = {}) => {
     	passwordLabel:'',
     } 
     const options =Object.assign(defaultOpts,opts)
-    //console.log('next render')
-    //console.log(options)
     render(options)
-   // bindEvent(options) 
+    bindEvent(options) 
 }
     
-export {  login }
+export { login }
